@@ -15,6 +15,7 @@ public class Ejercicio1 {
 
 	private static String obtenerTexto(String texto) {
 		Scanner sc = new Scanner(System.in);
+		System.out.println("Introduzca un texto");
 		String textoDevuelto = sc.nextLine();
 		sc.close();
 		return textoDevuelto;
